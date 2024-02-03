@@ -15,44 +15,93 @@
   </head>
   <body>
     <div class="nav-bar">
-        <nav class="navbar navbar-expand-lg navbar-light bg-warning">
-            <a class="navbar-brand" href="#">APG</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-light" href="#">Photo</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Equipment
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled text-white" href="#">Disabled</a>
-                </li>
-              </ul>
-              <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn btn-info my-2 my-sm-0" type="submit">Search</button>
-              </form>
-            </div>
-          </nav>
+      <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <a class="navbar-brand" href="#">APG</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="#home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#photo">Photo</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#equipment" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Equipment
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled text-white" href="#">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn btn-info my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
     </div>
 
-    
+    <div class="jumbotron jumbotron-fluid ">
+      <div class="container">
+        <h1 class="display-4 text-center">Astrophotography</h1>
+        <p class="lead text-center">Deep sky objects, Nebulae, Cluster and much more...</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <img src="../Bootstrap4_project/CSS/Images/me.jpg" alt="..." class="img-thumbnail">
+        </div>
+
+        <div class="col-6">
+          <h3>About Myself...</h3>
+          <p>In 1990 I have been on the moon.</p>
+          <p>That mission was very complex but I have got my reward at the end.</p>
+          <p>I hope you will enjoy the trip discovering all about our galaxy and possibly the entire universe.</p>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <h4 class="text-center">Sit confortable and enjoy.</h4>
+        </div>
+
+        <div class="col">
+          <h3>DISCOVER MORE...</h3>
+            <ul class="list-group">
+              <li class="list-group-item"><a class="nav-link" href="#">Galaxies</a></li>
+              <li class="list-group-item"><a class="nav-link" href="#">Nebulae</a></li>
+              <li class="list-group-item"><a class="nav-link" href="#">Cluster</a></li>
+              <li class="list-group-item"><a class="nav-link" href="#">Equipment</a></li>
+              <li class="list-group-item"><a class="nav-link" href="#">Miscellanous</a></li>
+            </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Photo  -->
+    <div id="photo">
+      <div class="bg-center">
+        <p>my pictture</p>
+        <img src="../Bootstrap4_project/CSS/Images/universe.jpg">
+      </div>
+    </div>
+    <!-- /Photo -->
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
